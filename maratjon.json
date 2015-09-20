@@ -9,7 +9,7 @@
   "container": {
     "type": "DOCKER",
     "docker": {
-      "image": "no/real/image:$tag",
+      "image": "docker.vgnett.no/opstest-ay:$tag",
       "network": "BRIDGE",
       "portMappings": [
         {
